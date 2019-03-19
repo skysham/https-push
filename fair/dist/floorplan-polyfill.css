@@ -1,0 +1,46 @@
+.hallPlan img {
+  max-width: none;
+}
+.hallPlan img.img-responsive {
+  width: 100%;
+  max-width: 100%;
+}
+.zoomArea {
+  position: relative;
+}
+.zoomArea .zoomBtnHolder {
+  position: absolute;
+  right: 15px;
+  bottom: 20px;
+}
+.zoomArea .zoomBtnHolder .zoomInBtn {
+  background-size: 22px 22px;
+  margin-bottom: 8px;
+  padding-bottom: 6px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 6px;
+  background-color: #f47a28;
+  cursor: pointer;
+  height: 36px;
+  opacity: 1 !important;
+  width: 36px;
+}
+.zoomArea .zoomBtnHolder .zoomInBtn.disable {
+  opacity: 0.2 !important;
+}
+.zoomArea .zoomBtnHolder .zoomOutBtn {
+  background-size: 22px 1.5px;
+  padding-bottom: 18px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 18px;
+  background-color: #f47a28;
+  cursor: pointer;
+  height: 36px;
+  opacity: 1 !important;
+  width: 36px;
+}
+.zoomArea .zoomBtnHolder .zoomOutBtn.disable {
+  opacity: 0.2 !important;
+}

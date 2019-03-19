@@ -1,0 +1,831 @@
+* {
+  -webkit-tap-highlight-color: rgba(229, 239, 245, 0.5) !important;
+}
+.new_tag {
+  border: 1px solid #69a72f;
+}
+.section_title {
+  color: #80c342;
+}
+.section_title a {
+  color: #80c342;
+}
+.section_title a:hover {
+  color: #80c342;
+}
+.new_tag {
+  color: #69a72f;
+}
+.nav_bar {
+  background: #69a72f;
+}
+.btn_icon {
+  background: #80c342;
+}
+.btn_icon.active {
+  color: #fff;
+  background: #000;
+  border-color: #000;
+}
+.radio_btn input[type=radio] + label span {
+  background: #fff;
+  box-shadow: 0 0 0 1px #80c342;
+}
+.radio_btn input[type=radio]:checked + label span {
+  background: #69a72f;
+  box-shadow: 0 0 0 1px #80c342;
+}
+.radio_group label {
+  color: #80c342;
+}
+.pagination a,
+.pagination span {
+  border: 1px solid #80c342;
+  color: #80c342;
+}
+.pagination a.active,
+.pagination span.active {
+  background: #80c342 !important;
+  color: #fff;
+  cursor: default;
+}
+.pagination a.active:hover,
+.pagination span.active:hover {
+  background: #80c342;
+  color: #fff;
+}
+.pagination a:hover,
+.pagination span:hover {
+  background: #eff5ec;
+  color: #80c342;
+}
+.page_head .section_title small {
+  color: #666;
+}
+.page_head .filter_tags span {
+  color: #666;
+}
+.page_head .filter_tags .tag {
+  color: #666;
+  background: #e0e0e0;
+}
+.item_btn {
+  border: 1px solid #80c342;
+  color: #80c342;
+  background: #fff;
+}
+.item_btn:hover {
+  color: #80c342;
+  background: #eff5ec;
+}
+.theme_bg {
+  background: #eff5ec;
+}
+.detail_wrapper #product_slider .btn_viewmore .txt {
+  color: #80c342;
+}
+.content_lists a {
+  color: #333;
+}
+.content_lists p {
+  color: #333;
+}
+.content_lists li {
+  color: #333;
+}
+.content_lists li:before {
+  background: #000;
+}
+.content_lists .small_title {
+  color: #80c342;
+}
+.content_lists .content_list {
+  border-bottom: 1px solid #daeed4;
+}
+.product_teaser img {
+  border: 1px solid #000;
+}
+.form {
+  color: #666;
+}
+.form label,
+.form .tnc .checkbox label,
+.form .checkbox_list .checkbox label {
+  color: #666;
+}
+.form a {
+  color: #80c342;
+}
+.form a:hover {
+  color: #69a72f;
+}
+.form p,
+.form .checkbox label {
+  color: #000;
+}
+.form .businessNatureHolder p,
+.form .pullright {
+  color: #666;
+}
+.form .form_component.error .form_field {
+  background-color: #ffeee6;
+}
+.form .similar_product_enquiry {
+  background: none;
+}
+.form .similar_product_enquiry input[type=checkbox] + label span {
+  border: 1px solid #000;
+}
+.form .form_field {
+  background-color: #e7e7e7;
+  color: #666;
+}
+.form ::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #666;
+}
+.form :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #666;
+  opacity: 1;
+}
+.form ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #666;
+  opacity: 1;
+}
+.form :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #666;
+}
+.form .radio_group {
+  background: #e7e7e7;
+}
+.form .radio_btn input[type=radio] + label span {
+  box-shadow: 0 0 0 1px #000;
+}
+.form .radio_btn input[type=radio]:checked + label span {
+  background: #000;
+}
+.form .checkbox input[type=checkbox] + label span {
+  background-color: #e7e7e7;
+}
+.form .checkbox_list {
+  background-color: #e7e7e7;
+}
+.form .checkbox_list input[type=checkbox] + label span {
+  background-color: #fff;
+}
+.form .checkbox_list.error {
+  background-color: #ffeee6;
+}
+.form .checkbox_list .checkboxes::-webkit-scrollbar-thumb {
+  background: #000;
+}
+.form .btn_enquiry span {
+  background: #e7e7e7;
+  color: #000;
+}
+.form .btn_notice span {
+  background: #fff;
+  color: #ff5a2d;
+}
+.form .tnc {
+  color: #666;
+}
+.form .tnc p {
+  color: #999;
+}
+.buyer_reference a {
+  color: #80c342;
+}
+.buyer_reference .head {
+  background: #5b5b5b;
+}
+.buyer_reference .head p {
+  color: #fff;
+}
+.buyer_reference .content {
+  background: #eff5ec;
+}
+.buyer_reference .form_component {
+  background: #eff5ec;
+}
+.detail_table span {
+  color: #666;
+}
+.detail_table span b {
+  color: #000;
+}
+.detail_table .head {
+  background: #262425;
+  color: #fff;
+}
+.detail_table .head span {
+  color: #ff5325 !important;
+}
+.detail_table .row {
+  background: #fff;
+}
+.detail_table .row:first-child span {
+  color: #000;
+}
+.zone_box {
+  color: #80c342;
+}
+.zone_box:hover {
+  color: #69a72f;
+}
+.news_box p {
+  color: #80c342;
+}
+.news_box small {
+  color: #333;
+}
+.news_box .box_content {
+  background: #eff5ec;
+}
+.news_box:hover p {
+  color: #69a72f;
+}
+.news_box:hover small {
+  color: #000;
+}
+.product_box p {
+  color: #80c342;
+}
+.product_box .box_content {
+  background: #eff5ec;
+}
+.product_box .item_btn {
+  background: #eff5ec;
+}
+.product_box .item_btn:hover {
+  background: #fff;
+}
+.product_box:hover p {
+  color: #69a72f;
+}
+.filter * {
+  color: #80c342;
+}
+.filter a:hover {
+  color: #80c342;
+  background: #eff5ec;
+}
+.filter_wrapper {
+  border: 1px solid #80c342;
+}
+.filter_list {
+  background: #fff;
+  border-style: solid;
+  border-color: #80c342;
+  border-width: 0 1px 1px 1px;
+}
+.filter_list::-webkit-scrollbar-thumb {
+  background: #80c342;
+}
+.contact_thankyou_wrapper a {
+  color: #80c342;
+}
+.contact_thankyou_wrapper a strong {
+  color: #80c342;
+}
+.contact_thankyou_wrapper a:hover {
+  color: #69a72f;
+}
+.contact_thankyou_wrapper a:hover strong {
+  color: #69a72f;
+}
+.contact_thankyou_wrapper strong {
+  color: #333;
+}
+.contact_thankyou_wrapper .form_content li:before {
+  background: #daeed4;
+}
+.news_wrapper {
+  color: #333;
+}
+.news_wrapper a {
+  color: #80c342;
+}
+.news_wrapper a:hover {
+  color: #69a72f;
+}
+.news_wrapper .content_provided .box_left {
+  border-right: 1px solid #000;
+}
+#ref_sample_table {
+  background: #eff5ec;
+  border: 4px solid #5b5b5b;
+}
+#ref_sample_table span {
+  color: #333;
+}
+/*#ref_sample_table img {
+  border: #5b5b5b 2px solid;
+}*/
+#ref_sample_table .row {
+  background: #fff;
+}
+#ref_sample_table .row.head {
+  background: #5b5b5b;
+}
+#ref_sample_table .row.head span {
+  color: #fff;
+}
+#ref_sample_table_overlay h3 {
+  color: #80c342;
+}
+#ref_sample_table_overlay p {
+  color: #333;
+}
+#ref_sample_table_overlay .overlay_wrapper {
+  background: #eff5ec;
+}
+#ref_sample_table_overlay .btn_close span {
+  background: #5b5b5b;
+}
+.slick-dots button {
+  background: #005398;
+}
+.slick-dots li.slick-active button {
+  transition: background 0.4s;
+  background: #fff;
+}
+#landing_sections section.theme_bg {
+  background: #ffffff;
+}
+#fair_slider h2 {
+  color: #80c342;
+}
+#fair_slider h3 {
+  color: #80c342;
+}
+#fair_slider .inner {
+  background: #eff5ec;
+}
+#buying_leads .box {
+  border-right: 1px solid #eff5ec;
+}
+#buying_leads .box span {
+  color: #80c342;
+}
+#buying_leads .box:last-child {
+  border-right: 0;
+}
+#industry_news h3 span {
+  color: #80c342;
+}
+#footer_event {
+  background: #ffffff;
+}
+#subscribe .btn_subscribe {
+  border: 1px solid #80c342;
+  color: #80c342;
+}
+#subscribe .btn_subscribe:hover {
+  background: #eff5ec;
+}
+#sidebar_related_cat.list ul a.on,
+#sidebar_related_cat.list ul a:hover,
+#list_filters .list .list_expandable a:hover,
+#list_filters .list .list_expandable .checkbox:hover {
+  background: #d3d3d3;
+  color: #000;
+}
+#list_filters .list .list_expandable .checkbox label{
+  cursor: pointer;
+}
+.booth_no,
+.booth_no a {
+  color: #80c342;
+}
+#item_lists .item_box span {
+  color: #80c342;
+}
+#item_lists .item_box .product_cate {
+  color: #666;
+}
+#item_lists .more_link {
+  color: #80c342;
+}
+#item_lists .hover_box span {
+  color: #80c342;
+}
+#item_boxes small {
+  color: #333;
+}
+#item_boxes small span {
+  color: #666;
+}
+#item_boxes .item_box:hover p {
+  color: #69a72f;
+}
+#item_boxes .item_box:hover small {
+  color: #000;
+}
+#item_boxes .item_details {
+  background: #eff5ec;
+}
+#item_boxes .item_details h3 {
+  color: #80c342;
+}
+#item_boxes .hover_box p {
+  color: #80c342;
+}
+.item_description span,
+.item_description .inline {
+  color: #80c342;
+}
+.item_description .detail_table span {
+  color: #666;
+}
+.item_description .item_btn:hover {
+  background: #eff5ec;
+}
+.media_overlay .btn_close {
+  background: #5b5b5b;
+}
+#product_description p span {
+  color: #80c342;
+}
+#product_description small span {
+  color: #80c342;
+}
+#similar_products_overlay .head {
+  background: #80c342;
+  color: #fff;
+}
+#similar_products_overlay .overlay_wrapper {
+  background: #eff5ec;
+}
+#similar_products_overlay .content p {
+  color: #5b5b5b;
+}
+#product_categories_wrapper h3 a {
+  color: #80c342;
+}
+#product_categories_wrapper h3 a:hover {
+  color: #69a72f;
+}
+#product_categories_wrapper a {
+  color: #333;
+}
+#product_categories_wrapper a:hover {
+  color: #000;
+}
+#product_categories_wrapper .btn_more,
+#product_categories_wrapper .btn_more_cates {
+  color: #80c342;
+}
+#product_categories_wrapper .btn_more:hover,
+#product_categories_wrapper .btn_more_cates:hover {
+  color: #69a72f;
+}
+#product_categories_wrapper .btn_expand:hover a {
+  color: #fff;
+}
+#product_categories_wrapper .btn_wrapper:before {
+  background: #e1e1e1;
+}
+#product_categories_wrapper .btn_more_cates {
+  background: #fff;
+  color: #80c342;
+}
+#get_latest_price_overlay .head,
+#thankyou_overlay .head {
+  background: #80c342;
+  color: #fff;
+}
+#get_latest_price_overlay .overlay_wrapper,
+#thankyou_overlay .overlay_wrapper {
+  background: #fff;
+  border: 2px solid #80c342;
+}
+body.product_detail .content_lists .content_list {
+  border-bottom: 1px solid #e1e1e1;
+}
+body.exhibitor_list ul.bullet a {
+  color: #80c342;
+}
+#fair_update {
+  background: #ffffff;
+}
+@media (min-width: 1024px) {
+  .btn_small {
+    color: #000;
+  }
+  .cate_table {
+    background: #eff5ec;
+  }
+  .cate_table .cate_link {
+    color: #80c342;
+  }
+  .cate_table .cate_link:hover {
+    color: #69a72f;
+  }
+  .cate_lists .cate_list:nth-child(even) {
+    background: #eff5ec;
+  }
+  .listing_topbar {
+    color: #80c342;
+  }
+  .listing_topbar label {
+    border: 1px solid #80c342;
+    background-color: #fff;
+    color: #80c342;
+  }
+  .listing_topbar label:hover {
+    background-color: #eff5ec;
+  }
+  .listing_topbar input[type=checkbox]:checked + label,
+  .listing_topbar input[type=radio]:checked + label {
+    background-color: #eff5ec;
+  }
+  .listing_topbar a {
+    border: 1px solid #80c342;
+    background-color: #fff;
+    color: #80c342;
+  }
+  .listing_topbar a.active,
+  .listing_topbar a:hover {
+    background-color: #eff5ec;
+  }
+  .form_content:first-child {
+    border-right: #e1e1e1 1px solid;
+  }
+  #header .sub_menu a:hover {
+    background: #333;
+    color: #fff;
+  }
+  #list_filters .list .title:hover {
+    background: #333;
+  }
+  #list_filters .list a:hover {
+    background: #333;
+  }
+  #item_boxes .item_btn:hover {
+    background: #fff;
+  }
+  #similar_products_overlay .row {
+    border-bottom: 1px solid #daeed4;
+  }
+  #similar_products_overlay .pagination a {
+    background: #fff;
+  }
+  #similar_products_overlay .pagination a:hover {
+    background: #eff5ec;
+  }
+  #product_categories_wrapper .list h3:hover,
+  #product_categories_wrapper p:hover {
+    background: #eff5ec;
+  }
+}
+@media (max-width: 1023px) {
+  .bottom_btns {
+    background: #fff;
+  }
+  .bottom_btns a.active {
+    background: #333;
+    border-bottom: 9px solid #000;
+  }
+  #list_filters {
+    background: #5b5b5b;
+  }
+  #list_filters * {
+    color: #fff;
+  }
+  #list_filters .list .list_expandable .checkbox:hover label {
+    color: #000;
+  }
+  #list_filters p.title {
+    background: #2d2d2d;
+  }
+  #list_filters .list a {
+    border-bottom: 1px solid #666;
+  }
+  #list_filters .checkbox {
+    border-bottom: 1px solid #444;
+  }
+  #list_filters .icon-show-more,
+  #list_filters .icon-show-less {
+    display: none;
+  }
+  #list_filters .list_expandable {
+    background: #2c2c2c;
+  }
+  #list_filters .list_expandable a {
+    border-bottom: 1px solid #444;
+  }
+  .contact_thankyou_wrapper .form_content:first-child:after {
+    background: #e1e1e1;
+  }
+  #matched_categories .page_head a {
+    color: #000;
+  }
+  #similar_products_overlay .product_teaser {
+    border-bottom: 1px solid #daeed4;
+  }
+  .product_cat_list .page_head {
+    background: #eff5ec;
+  }
+}
+@media (min-width: 768px) {
+  .btn_icon {
+    border-bottom: 9px solid #69a72f;
+  }
+  .btn_icon:not(.btn_supplier):not(.btn_product):hover {
+    color: #fff;
+    background: #333;
+    border-color: #333;
+  }
+  .btn_icon.btn_supplier:hover, .btn_icon.btn_product:hover{
+    color:#fff;
+  }
+  .search_field input {
+    border: 10px solid #eff5ec;
+  }
+  .search_field .btn_search:hover:before {
+    border-color: transparent #333 transparent transparent;
+  }
+  .search_field .btn_search:before {
+    transition: border-color 0.4s;
+    border-color: transparent #80c342 transparent transparent;
+  }
+  #header {
+    background: #80c342;
+  }
+  #header .btns a:hover {
+    background: #69a72f;
+  }
+  #landing_slider {
+    background: #03230b;
+  }
+  #landing_slider .slick-dots li:hover button {
+    transition: background 0.4s;
+    background: #000;
+  }
+  #top_category .container {
+    border-right: 1px solid #daeed4;
+  }
+  #buying_leads .box:hover span {
+    color: #69a72f;
+  }
+  #buying_leads .box:hover .hover_overlay {
+    background: rgba(239, 245, 236, 0.5);
+  }
+  #fair_slider .content_box:hover h3 {
+    color: #69a72f;
+  }
+  #fair_slider .content_box:hover p {
+    color: #000;
+  }
+  #industry_news h3 span {
+    color: #80c342;
+  }
+  #industry_news a:hover {
+    color: #333;
+  }
+  #industry_news a:hover span {
+    color: #69a72f;
+  }
+  #industry_news .other_news .content {
+    border-bottom: 1px solid #daeed4;
+  }
+}
+@media (max-width: 767px) {
+  .bottom_btns a.active {
+    border-bottom: 5px solid #000;
+  }
+  .btn_icon {
+    border-bottom: 5px solid #69a72f;
+  }
+  .search_field input {
+    border: 12px solid #eff5ec;
+  }
+  .search_field .btn_search:before {
+    border-color: transparent #80c342 transparent transparent;
+  }
+  #header .logo_wrapper,
+  #header .head_bar {
+    background: #80c342;
+  }
+  #header .btns a {
+    border-right: 1px solid #80c342;
+  }
+  #header .btns a:last-child {
+    border-right: 0;
+  }
+  #header .nav_top {
+    border-bottom: 1px solid #80c342;
+  }
+  #header .langs li {
+    border-right: 1px solid #80c342;
+  }
+  #header .langs li:last-child {
+    border-right: 0;
+  }
+  #landing_slider {
+    background: #69a72f;
+  }
+  #landing_sections section.theme_bg .link_list li {
+    border-color: #daeed4;
+  }
+  #industry_news .content {
+    border-bottom: 1px solid #daeed4;
+  }
+  #exhibitor_list_overlay {
+    background: #fff;
+  }
+  #exhibitor_list_overlay .page_head {
+    background: #eff5ec;
+  }
+}
+#header a {
+  color: #fff;
+}
+#landing_slider {
+  color: #fff;
+}
+@media (min-width: 768px) {
+  #header .btns a {
+    border: 1px solid #fff;
+  }
+}
+
+
+/* more theme color  css - Samantha*/
+
+@media (min-width: 1367px) {  
+  .btn_icon.btn_supplier:hover, .btn_icon.btn_product:hover{
+    color: #fff;
+    background: #333;
+    border-color: #333;
+  }
+}
+@media (max-width: 767px) {
+  #header .btns {
+    background: #69a72f;
+  }
+  #header .btn_nav_bar {
+    border-bottom: 1px solid #80c342;
+  }
+}
+.slick-dots button {
+    background: #80c342;
+}
+.icon-alert {
+  background-image: url(http://portal3auat.hktdc.com/smwong/dev/fairsite/toystyle/images/icon/toys/alert.svg);
+}
+.icon-arrow-blue-left {
+  background-image: url(http://portal3auat.hktdc.com/smwong/dev/fairsite/toystyle/images/icon/toys/arrow-blue-left.svg);
+}
+.icon-arrow-blue-right {
+  background-image: url(http://portal3auat.hktdc.com/smwong/dev/fairsite/toystyle/images/icon/toys/arrow-blue-right.svg);
+}
+.icon-begin-off {
+  background-image: url(http://portal3auat.hktdc.com/smwong/dev/fairsite/toystyle/images/icon/toys/begin-off.svg);
+}
+.icon-cart {
+  background-image: url(http://portal3auat.hktdc.com/smwong/dev/fairsite/toystyle/images/icon/toys/cart.svg);
+}
+.icon-fav-off {
+  background-image: url(http://portal3auat.hktdc.com/smwong/dev/fairsite/toystyle/images/icon/toys/fav-off.svg);
+}
+.icon-fav-on {
+  background-image: url(http://portal3auat.hktdc.com/smwong/dev/fairsite/toystyle/images/icon/toys/fav-on.svg);
+}
+.icon-schedule {
+  background-image: url(http://portal3auat.hktdc.com/smwong/dev/fairsite/toystyle/images/icon/toys/icon_event.svg);
+}
+.icon-icon_pdf {
+  background-image: url(http://portal3auat.hktdc.com/smwong/dev/fairsite/toystyle/images/icon/toys/icon_pdf.svg);
+}
+.icon-registor {
+  background-image: url(http://portal3auat.hktdc.com/smwong/dev/fairsite/toystyle/images/icon/toys/icon_registor.svg);
+}
+.icon-last-off {
+  background-image: url(http://portal3auat.hktdc.com/smwong/dev/fairsite/toystyle/images/icon/toys/last-off.svg);
+}
+.icon-mail {
+  background-image: url(http://portal3auat.hktdc.com/smwong/dev/fairsite/toystyle/images/icon/toys/mail.svg);
+}
+.icon-mymap {
+  background-image: url(http://portal3auat.hktdc.com/smwong/dev/fairsite/toystyle/images/icon/toys/mymap.svg);
+}
+.icon-next-off {
+  background-image: url(http://portal3auat.hktdc.com/smwong/dev/fairsite/toystyle/images/icon/toys/next-off.svg);
+}
+.icon-order-square {
+  background-image: url(http://portal3auat.hktdc.com/smwong/dev/fairsite/toystyle/images/icon/toys/order1.svg);
+}
+.icon-order-list {
+  background-image: url(http://portal3auat.hktdc.com/smwong/dev/fairsite/toystyle/images/icon/toys/order2.svg);
+}
+.icon-prev-off {
+  background-image: url(http://portal3auat.hktdc.com/smwong/dev/fairsite/toystyle/images/icon/toys/prev-off.svg);
+}
+.icon-price {
+  background-image: url(http://portal3auat.hktdc.com/smwong/dev/fairsite/toystyle/images/icon/toys/price.svg);
+}

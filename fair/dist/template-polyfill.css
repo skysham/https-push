@@ -1,0 +1,178 @@
+img {
+  vertical-align: baseline;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+.icon-share {
+  background-image: url('../images/icon/share.svg');
+}
+.icon-supplier {
+  background-image: url('../images/icon/supplier.svg');
+}
+.icon-product {
+  background-image: url('../images/icon/product.svg');
+}
+.icon-search {
+  background-image: url('../images/icon/search.svg');
+}
+.icon-arrow-black-left {
+  background-image: url('../images/icon/arrow-black-left.svg');
+}
+.icon-arrow-black-right {
+  background-image: url('../images/icon/arrow-black-right.svg');
+}
+.icon-arrow-black-down {
+  background-image: url('../images/icon/arrow-black-down.svg');
+}
+.icon-arrow-white-right {
+  background-image: url('../images/icon/arrow-white-right.svg');
+}
+.icon-arrow-white-down {
+  background-image: url('../images/icon/arrow-white-down.svg');
+}
+.icon-arrow-grey-left {
+  background-image: url('../images/icon/arrow-grey-left.svg');
+}
+.icon-arrow-grey-right {
+  background-image: url('../images/icon/arrow-grey-right.svg');
+}
+.icon-arrow-blue-left {
+  background-image: url('../images/icon/arrow-blue-left.svg');
+}
+.icon-arrow-blue-right {
+  background-image: url('../images/icon/arrow-blue-right.svg');
+}
+.icon-apple {
+  background-image: url('../images/icon/apple.svg');
+}
+.icon-android {
+  background-image: url('../images/icon/android.svg');
+}
+.icon-fav-off {
+  background-image: url('../images/icon/fav-off.svg');
+}
+.icon-fav-on {
+  background-image: url('../images/icon/fav-on.svg');
+}
+.icon-fav-white {
+  background-image: url('../images/icon/fav-off-white.svg');
+}
+.icon-mail {
+  background-image: url('../images/icon/mail.svg');
+}
+.icon-mail-white {
+  background-image: url('../images/icon/mail-white.svg');
+}
+.icon-price {
+  background-image: url('../images/icon/price.svg');
+}
+.icon-cart {
+  background-image: url('../images/icon/cart.svg');
+}
+.icon-cart-white {
+  background-image: url('../images/icon/cart-white.svg');
+}
+.icon-filter {
+  background-image: url('../images/icon/filter.svg');
+}
+.icon-filter-close {
+  background-image: url('../images/icon/filter-close.svg');
+}
+.icon-last-off {
+  background-image: url('../images/pagination/last-off.svg');
+}
+.icon-last-on {
+  background-image: url('../images/pagination/last-on.svg');
+}
+.icon-begin-off {
+  background-image: url('../images/pagination/begin-off.svg');
+}
+.icon-begin-on {
+  background-image: url('../images/pagination/begin-on.svg');
+}
+.icon-next-off {
+  background-image: url('../images/pagination/next-off.svg');
+}
+.icon-next-on {
+  background-image: url('../images/pagination/next-on.svg');
+}
+.icon-prev-off {
+  background-image: url('../images/pagination/prev-off.svg');
+}
+.icon-prev-on {
+  background-image: url('../images/pagination/prev-on.svg');
+}
+.icon-menu-close {
+  background-image: url('../images/icon/menu-close.svg');
+  background-size: 19px 19px;
+  width: 19px;
+  height: 19px;
+}
+.icon-close {
+  background-image: url('../images/icon/close.svg');
+  background-size: 21px 21px;
+  width: 21px;
+  height: 21px;
+}
+.icon-mymap {
+  background-image: url('../images/icon/mymap.svg');
+  background-size: 23px 23px;
+  width: 23px;
+  height: 23px;
+}
+.icon-mymap-white {
+  background-image: url('../images/icon/mymap-white.svg');
+}
+body {
+  -webkit-backface-visibility: visible;
+  line-height: 1.5em;
+  font-size: 16px;
+  font-family: Verdana, Arial, "黑體", "微軟正黑體", "細明體", "新細明體", "標楷體";
+}
+h4 {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+h4,
+h5 {
+  margin-top: 0;
+  color: black;
+  margin-bottom: 1.5em;
+}
+h5 {
+  font-size: 0.83em;
+}
+#footer span,
+#footer p {
+  color: black;
+}
+@media (min-width: 1024px) {
+  body {
+    max-width: 1680px;
+    margin: 0 auto;
+  }
+}
+.hallPlanHolder div > img {
+  max-width: none;
+}
+@media screen and (max-width: 800px) {
+  .slick-slide {
+    margin-right: 0px !important;
+  }
+  .slick-dots {
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 767px) {
+  body {
+    padding-top: 142px;
+  }
+  body.simple_header {
+    padding-top: 107px;
+  }
+}
+.mce-template .darkGrayLine {
+  width: 100%;
+}
