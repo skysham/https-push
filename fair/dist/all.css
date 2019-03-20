@@ -1974,7 +1974,7 @@ button {
     white-space: nowrap;
   }
   #header .nav_bar {
-    display: block !important;
+    /*display: block !important;*/
     position: relative;
     padding: 0 23px;
     line-height: 2em;
